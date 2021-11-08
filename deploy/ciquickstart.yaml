@@ -29,6 +29,6 @@ spec:
     spec:
       containers:
       - name: ciquickstart
-        image: peterhack/ciquickstart
+        image: peterhack/ciquickstart:<+pipeline.sequenceId>
         ports:
         - containerPort: 80
